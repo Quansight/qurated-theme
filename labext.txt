@@ -1,4 +1,7 @@
 @jupyter-widgets/jupyterlab-manager
+@jupyterlab/toc
+@pyviz/jupyterlab_pyviz
+@bokeh/jupyter_bokeh
 @deathbeds/jupyterlab-starters
 @deathbeds/jupyterlab-fonts
 @deathbeds/jupyterlab-font-anonymous-pro
