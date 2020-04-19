@@ -1,0 +1,50 @@
+{
+  "name": "@quansight/q-theme",
+  "version": "0.0.1",
+  "description": "Q Dark Theme",
+  "homepage": "https://github.com/quansight/q-theme",
+  "bugs": {
+    "url": "https://github.com/quansight/q-theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quansight/q-theme.git"
+  },
+  "license": "BSD-3-Clause",
+  "author": "Quansight",
+  "files": [
+    "{style,lib,src}/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf,ts,map,js}"
+  ],
+  "sideEffects": true,
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/dk.css",
+  "directories": {
+    "lib": "lib/"
+  },
+  "scripts": {
+    "bootstrap": "jlpm && jlpm build && jupyter labextension install . --no-build && jlpm ext:list",
+    "third-party": "jupyter labextension install @deathbeds/jupyterlab-starters --no-build",
+    "ext:list": "jupyter labextension list",
+    "build": "tsc -b",
+    "clean": "rimraf lib",
+    "watch": "tsc -b --watch"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "2",
+    "@jupyterlab/apputils": "2",
+    "typeface-fira-code": "^1.1.4"
+  },
+  "devDependencies": {
+    "rimraf": "~3.0.0",
+    "typedoc": "^0.15.4",
+    "typescript": "~3.7.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "themePath": "style/index.css"
+  }
+}
