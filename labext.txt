@@ -1,5 +1,4 @@
-@jupyter-widgets/jupyterlab-manager@1.1.0
-bqplot@0.4.7
+@jupyter-widgets/jupyterlab-manager
 @deathbeds/jupyterlab-starters
 @deathbeds/jupyterlab-fonts
 @deathbeds/jupyterlab-font-anonymous-pro
