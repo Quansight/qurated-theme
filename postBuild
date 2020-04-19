@@ -1,12 +1,3 @@
-#!/usr/bin/env bash
-if [[ "${NB_UID}not-on-binder" -ne "not-on-binder" ]]; then
-  if [[ "${CONDA_PREFIX}no-conda-prefix" = "no-conda-prefix" ]]; then
-    source $CONDA_DIR/bin/activate $CONDA_DIR
-  fi
-fi
-
-set -eux
-
 mv overrides.json /srv/conda/envs/notebook/share/jupyter/lab/settings
 jlpm bootstrap
 jupyter labextension install $(cat labex.txt) --no-build
