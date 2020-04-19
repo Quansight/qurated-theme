@@ -7,7 +7,7 @@ fi
 
 set -eux
 
-mv overrides.json share/jupyter/lab/settings
+mv overrides.json /srv/conda/envs/notebook/share/jupyter/lab/settings
 jlpm bootstrap
 jupyter labextension install $(cat labex.txt) --no-build
 jupyter lab build
