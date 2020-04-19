@@ -1,0 +1,16 @@
+{
+    "@jupyterlab/apputils-extension:themes": {
+      "theme": "JupyterLab Dark"
+    },
+    "@jupyterlab/application-extension:sidebar": {
+        "jp-running-sessions": "right",
+        "command-palette": "left",
+        "notebook-tools": "right",
+        "tab-manager": "left",
+        "table-of-contents": "left",
+        "dask-dashboard-launcher": "right",
+        "filebrowser": "right",
+        "jp-property-inspector": "right",
+        "extensionmanager.main-view": "right"
+    }
+  }

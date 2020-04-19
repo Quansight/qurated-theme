@@ -6,8 +6,8 @@ if [[ "${NB_UID}not-on-binder" -ne "not-on-binder" ]]; then
 fi
 
 set -eux
-python -m _scripts._setup
 
+mv overrides.json share/jupyter/lab/settings
 jlpm bootstrap
 jupyter labextension install $(cat labex.txt) --no-build
 jupyter lab build

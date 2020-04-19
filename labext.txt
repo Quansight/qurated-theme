@@ -2,6 +2,6 @@
 bqplot@0.4.7
 @deathbeds/jupyterlab-starters
 @deathbeds/jupyterlab-fonts
-@deathbeds/jupyterlab-font-anonymous-pro --no-build
-@deathbeds/jupyterlab-font-dejavu-sans-mono --no-build
-@deathbeds/jupyterlab-font-fira-code --no-build
+@deathbeds/jupyterlab-font-anonymous-pro
+@deathbeds/jupyterlab-font-dejavu-sans-mono
+@deathbeds/jupyterlab-font-fira-code
