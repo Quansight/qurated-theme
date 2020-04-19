@@ -4,4 +4,4 @@ jlpm bootstrap
 # jupyter labextension install $(cat labex.txt) --no-build
 jupyter labextension update --all
 jupyter labextension list
-jupyter lab build
+jupyter lab build --debug
