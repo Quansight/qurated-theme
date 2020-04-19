@@ -23,7 +23,7 @@
     "lib": "lib/"
   },
   "scripts": {
-    "bootstrap": "jlpm && jlpm build && jupyter labextension install . --no-build && jlpm ext:list",
+    "bootstrap": "jlpm && jupyter labextension install . --no-build && jlpm ext:list",
     "third-party": "jupyter labextension install @deathbeds/jupyterlab-starters --no-build",
     "ext:list": "jupyter labextension list",
     "build": "tsc -b",
