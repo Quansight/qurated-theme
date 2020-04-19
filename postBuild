@@ -1,4 +1,5 @@
 mv overrides.json /srv/conda/envs/notebook/share/jupyter/lab/settings
+jupyter labextension update --all
 jlpm bootstrap
 jupyter labextension install $(cat labex.txt) --no-build
 jupyter lab build
