@@ -1,6 +1,7 @@
 {
     "@jupyterlab/apputils-extension:themes": {
-      "theme": "JupyterLab Dark"
+        "theme": "Qtheme DK",
+        "theme-scrollbars": true
     },
     "@jupyterlab/application-extension:sidebar": {
         "jp-running-sessions": "right",
@@ -12,5 +13,22 @@
         "filebrowser": "right",
         "jp-property-inspector": "right",
         "extensionmanager.main-view": "right"
+    },
+    "@jupyterlab/statusbar-extension:plugin": {
+        "visible": false
+    },
+    "jupyterlab/terminal-extension:plugin": {
+        "theme": "light"
+    },
+    "@deathbeds/jupyterlab-fonts:fonts": {
+        "styles": {
+            ":root": {
+                "--jp-content-font-family": "'Fira Code Regular'",
+                "--jp-code-font-family": "'Fira Code Medium'"
+            }
+        }
+    },
+    "@jupyterlab/filebrowser-extension:browser":{
+        "navigateToCurrentDirectory": true   
     }
   }
