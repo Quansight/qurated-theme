@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+if [[ "${NB_UID}not-on-binder" -ne "not-on-binder" ]]; then
+  if [[ "${CONDA_PREFIX}no-conda-prefix" = "no-conda-prefix" ]]; then
+    source $CONDA_DIR/bin/activate $CONDA_DIR
+  fi
+fi
+
+set -eux
+python -m _scripts._setup
+
+jlpm bootstrap
+jupyter labextension install $(cat labex.txt) --no-build
+jupyter lab build
