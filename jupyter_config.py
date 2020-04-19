@@ -1,2 +1,2 @@
-c.LabBuildApp.minimize = False
+c.LabBuildApp.minimize = True
 c.LabBuildApp.dev_build = False
