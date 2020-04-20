@@ -4,15 +4,17 @@
         "theme-scrollbars": true
     },
     "@jupyterlab/application-extension:sidebar": {
-        "jp-running-sessions": "right",
-        "command-palette": "left",
-        "notebook-tools": "right",
-        "tab-manager": "left",
-        "table-of-contents": "left",
-        "dask-dashboard-launcher": "right",
-        "filebrowser": "right",
-        "jp-property-inspector": "right",
-        "extensionmanager.main-view": "right"
+        "overrrides": {
+            "jp-running-sessions": "right",
+            "command-palette": "left",
+            "notebook-tools": "right",
+            "tab-manager": "left",
+            "table-of-contents": "left",
+            "dask-dashboard-launcher": "right",
+            "filebrowser": "right",
+            "jp-property-inspector": "right",
+            "extensionmanager.main-view": "right"
+        }
     },
     "@jupyterlab/statusbar-extension:plugin": {
         "visible": false
