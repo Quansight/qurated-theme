@@ -6,7 +6,6 @@ channels:
   
 dependencies:
   - bokeh
-  - cookiecutter
   - distributed
   - jupyterlab ==2.1
   - nbdime
