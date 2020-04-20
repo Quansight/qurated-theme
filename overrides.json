@@ -23,7 +23,6 @@
     "@deathbeds/jupyterlab-fonts:fonts": {
         "styles": {
             ":root": {
-                "--jp-content-font-family": "'Fira Code Regular'",
                 "--jp-code-font-family": "'Fira Code Medium'"
             }
         }
