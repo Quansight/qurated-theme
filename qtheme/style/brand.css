@@ -1,7 +1,22 @@
+/* :root {
+    --qs-brand-color0: #652e8e;
+    --qs-brand-color1: #957da6;
+    --qs-brand-color2: #4f4173;
+
+    --qs-accent-color0: #05773d;
+    --qs-accent-color1: #49b374;
+    --qs-accent-color2: #045a2e;
+
+    --qs-warn-color0: #e86825;
+    --qs-warn-color1: #e89061;
+    --qs-warn-color2: #bd5627;
+    
+} */
+
 :root {
     --qs-brand-color0: #3D1A6C;
     --qs-brand-color1: #28C5D5;
-    --qs-brand-color2: #2A114D;
+    --qs-brand-color2: #3D1A6C;
 
     --qs-accent-color0: #32C574;
     --qs-accent-color1: #28C5D5;
@@ -12,3 +27,4 @@
     --qs-warn-color2: #515B5D;
     
 }
+svg[data-icon] {fill: var(--qs-accent-color2);}
