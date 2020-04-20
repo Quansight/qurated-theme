@@ -1,7 +1,9 @@
+#!/usr/bin/env bash
+set -eux
 mv overrides.json /srv/conda/envs/notebook/share/jupyter/lab/settings
-jupyter labextension uninstall jupyter-offlinenotebook  --no-build
+jupyter lab clean --all
+jlpm cache clean
 jlpm bootstrap
 # jupyter labextension install $(cat labex.txt) --no-build
-jupyter labextension update --all
 jupyter labextension list
 jupyter lab build --debug
