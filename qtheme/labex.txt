@@ -1,7 +1,12 @@
-@jupyter-widgets/jupyterlab-manager
-@jupyterlab/toc
-@deathbeds/jupyterlab-starters
-@deathbeds/jupyterlab-fonts
+@bokeh/jupyter_bokeh
 @deathbeds/jupyterlab-font-anonymous-pro
 @deathbeds/jupyterlab-font-dejavu-sans-mono
 @deathbeds/jupyterlab-font-fira-code
+@deathbeds/jupyterlab-fonts
+@deathbeds/jupyterlab-starters
+@jupyter-widgets/jupyterlab-manager
+@jupyterlab/toc
+@krassowski/jupyterlab-lsp
+@pyviz/jupyterlab_pyviz
+dask-labextension
+nbdime-jupyterlab
