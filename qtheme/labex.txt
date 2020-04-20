@@ -5,4 +5,5 @@
 @deathbeds/jupyterlab-starters
 @jupyter-widgets/jupyterlab-manager
 @jupyterlab/toc
+@krassowski/jupyterlab-lsp
 nbdime-jupyterlab
