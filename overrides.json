@@ -11,7 +11,7 @@
             "tab-manager": "left",
             "table-of-contents": "left",
             "dask-dashboard-launcher": "right",
-            "filebrowser": "right",
+            "filebrowser": "left",
             "jp-property-inspector": "right",
             "extensionmanager.main-view": "right"
         }
