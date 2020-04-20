@@ -1,0 +1,11 @@
+name: q-theme
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python >=3.7,<3.8.0a0
+  - jupyterlab ==2.1
+  - nodejs
+  - pip:
+    - jupyter-starters
