@@ -2,6 +2,7 @@ name: q-theme
 
 channels:
   - conda-forge
+  - pyviz
   
 dependencies:
   - bokeh
