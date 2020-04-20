@@ -2,18 +2,14 @@ name: q-theme
 
 channels:
   - conda-forge
-  - pyviz
   
 dependencies:
-  - bokeh
-  - distributed
   - jupyterlab ==2.1
   - nbdime
   - nodejs
   - pip
   - python >=3.7,<3.8.0a0
   - python-language-server
-  - pyviz
   - pip:
     - jupyter-starters
     - jupyter-lsp
