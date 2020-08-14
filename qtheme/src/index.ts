@@ -33,7 +33,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
       themeScrollbars: true,
       load: () => {
         console.log(shell.presentationMode);
-        shell.presentationMode || app.commands.execute('application:toggle-presentation-mode', {});
+        /**shell.presentationMode || app.commands.execute('application:toggle-presentation-mode', {});**/
         return manager.loadCSS(style);
       },
       unload: () => Promise.resolve(undefined)
